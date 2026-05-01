@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2122</title>
+    <meta name="description" content="Fotos">
+    <meta property="og:title" content="2122">
+    <meta property="og:description" content="Fotos">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="img/portada1.jpg">
+    <link rel="stylesheet" href="css/style.css?v=42">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <script>
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+        window.addEventListener('load', function () {
+            window.scrollTo(0, 0);
+        });
+    </script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="logo-container">
+            <a href="index.html" class="site-logo-text">2122</a>
+        </div>
+        <nav class="nav-container">
+            <button id="theme-toggle" class="theme-btn" aria-label="Cambiar tema"></button>
+            <a href="#" id="open-datos">Datos</a>
+        </nav>
+    </header>
+
+    <div id="datos-overlay" class="overlay">
+        <header class="site-header overlay-header">
+            <div class="logo-container">
+                <span class="site-logo-text">2122</span>
+            </div>
+            <nav class="nav-container">
+                <a href="#" id="close-datos" class="close-btn">×</a>
+            </nav>
+        </header>
+        <main class="main-content datos-content">
+            <p class="intro-text">
+                No es algo profesional. Me gusta sacar fotos porque me transmiten algo, tambien puedo guardar un
+                recuerdo de lo que pasaba en ese momento. Por ahora no hay muchas.
+            </p>
+        </main>
+    </div>
+
+    <main class="main-content full-width">
+        <div class="category-grid">
+            <!-- Columna 1 Visual -->
+            <div class="category-item" style="order: 1;">
+                <img src="img/portada1.jpg" alt="Foto 1" data-date="2023">
+            </div>
+            <div class="category-item" style="order: 4;">
+                <img src="img/portada4.jpg" alt="Foto 4" data-date="2026">
+            </div>
+            <div class="category-item" style="order: 7;">
+                <img src="img/portada7.jpg" alt="Foto 7" data-date="2024">
+            </div>
+            <div class="category-item" style="order: 10;">
+                <img src="img/portada10.jpg" alt="Foto 10" data-date="2025">
+            </div>
+            <div class="category-item" style="order: 13;">
+                <img src="img/portada13.jpg" alt="Foto 13" data-date="2024">
+            </div>
+
+            <!-- Columna 2 Visual -->
+            <div class="category-item" style="order: 2;">
+                <img src="img/portada2.jpg" alt="Foto 2" data-date="2024">
+            </div>
+            <div class="category-item" style="order: 5;">
+                <img src="img/portada5.jpg" alt="Foto 5" data-date="2023">
+            </div>
+            <div class="category-item" style="order: 8;">
+                <img src="img/portada8.jpg" alt="Foto 8" data-date="2023">
+            </div>
+            <div class="category-item" style="order: 11;">
+                <img src="img/portada11.jpg" alt="Foto 11" data-date="2026">
+            </div>
+            <div class="category-item" style="order: 14;">
+                <img src="img/portada14.jpg" alt="Foto 14" data-date="2026">
+            </div>
+
+            <!-- Columna 3 Visual -->
+            <div class="category-item" style="order: 3;">
+                <img src="img/portada3.jpg" alt="Foto 3" data-date="2026">
+            </div>
+            <div class="category-item" style="order: 6;">
+                <img src="img/portada6.jpg" alt="Foto 6" data-date="2024">
+            </div>
+            <div class="category-item" style="order: 9;">
+                <img src="img/portada9.jpg" alt="Foto 9" data-date="2024">
+            </div>
+            <div class="category-item" style="order: 12;">
+                <img src="img/portada12.jpg" alt="Foto 12" data-date="2023">
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <p>Gracias por Ver</p>
+    </footer>
+    <script src="js/theme.js?v=4"></script>
+    <script src="js/lightbox.js?v=35"></script>
+</body>
+
+</html>
